@@ -5,7 +5,7 @@
 </p>
 
 # Overview
-Firmament Model (FMT Model) is a part of [Firmament Autopilot](https://github.com/FirmamentPilot) project, which includes the simulation framework, such as **model-in-the-loop** , **hardware-in-the-loop** and **open-loop** simulation. Apart from that, the algorithm library is provided which contains various of simulink model including **INS**, **Controller**, **FMS**, **Plant**,  which can be used for different vehicles. These models can generate C/C++ source file and easily integrate into [FMT Firmware](https://github.com/FirmamentPilot/FMT_Firmware).
+Firmament Model (FMT Model) is a part of [Firmament Autopilot](https://github.com/Firmament-Autopilot) project, which includes the simulation framework, such as **model-in-the-loop** , **hardware-in-the-loop** and **open-loop** simulation. Apart from that, the algorithm library is provided which contains various of simulink model including **INS**, **Controller**, **FMS**, **Plant**,  which can be used for different vehicles. These models can generate C/C++ source file and easily integrate into [FMT Firmware](https://github.com/Firmament-Autopilot/FMT_Firmware).
 
 <p align="center"><img width="700" src="https://github.com/Firmament-Autopilot/FMT_UserGuide/blob/main/fmt_model/architecture/figures/fmt_model.png" alt=structure"></p>
 
