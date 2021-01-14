@@ -184,7 +184,7 @@ end
 
 function generate_MAT(LogHeader, LogMsg, Path)
 %% create Bus variable and save into .mat file
-save(strcat(Path, '\LogHeader.mat'), 'LogHeader'); % save log header
+save(strcat(Path, '/LogHeader.mat'), 'LogHeader'); % save log header
 
 for n = 1:LogHeader.num_bus
     msg_id = LogHeader.bus(n).msg_id;
@@ -227,7 +227,9 @@ for n = 1:LogHeader.num_bus
     end
     
     % save as .mat file
-    save(strcat(Path, ['\', BusName, '.mat']), BusName);
+    out_file = strcat(Path, ['/', BusName, '.mat']);
+    save(out_file, BusName);
+    fprintf("Save to path:%s\n", out_file);
 end    
 end
 
