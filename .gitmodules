@@ -1,0 +1,15 @@
+[submodule "model/INS/Base_INS"]
+	path = model/INS/Base_INS
+	url = git@github.com:Firmament-Autopilot/Base_INS.git
+[submodule "model/FMS/Base_FMS"]
+	path = model/FMS/Base_FMS
+	url = git@github.com:Firmament-Autopilot/Base_SMS.git
+[submodule "model/Controller/Base_Controller"]
+	path = model/Controller/Base_Controller
+	url = https://github.com/Firmament-Autopilot/Base_Controller.git
+[submodule "model/Plant/Multicopter_Model"]
+	path = model/Plant/Multicopter_Model
+	url = git@github.com:Firmament-Autopilot/MC_Model.git
+[submodule "model/Controller/Template_Controller"]
+	path = model/Controller/Template_Controller
+	url = https://github.com/Firmament-Autopilot/Template_Controller.git
