@@ -1,4 +1,4 @@
-<p align="center"><img width="200" src="https://github.com/FirmamentPilot/fmt_user_guide_cn/blob/master/figures/logo.png" alt=FMT logo"></p>
+<p align="center"><img width="160" src="https://github.com/Firmament-Autopilot/FMT_Firmware/blob/master/figures/logo.png" alt=FMT logo"></p>
 	
 <p align="center">
   <a href="/LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-green" alt="GitHub license" /></a>
@@ -7,7 +7,7 @@
 # Overview
 Firmament Model (FMT Model) is a part of [Firmament Autopilot](https://github.com/FirmamentPilot) project, which includes the simulation framework, such as **model-in-the-loop** , **hardware-in-the-loop** and **open-loop** simulation. Apart from that, the algorithm library is provided which contains various of simulink model including **INS**, **Controller**, **FMS**, **Plant**,  which can be used for different vehicles. These models can generate C/C++ source file and easily integrate into [FMT Firmware](https://github.com/FirmamentPilot/FMT_Firmware).
 
-<p align="center"><img width="700" src="https://github.com/FirmamentPilot/fmt_user_guide_cn/blob/master/fmt_model/architecture/figures/fmt_model.png" alt=structure"></p>
+<p align="center"><img width="700" src="https://github.com/Firmament-Autopilot/FMT_UserGuide/blob/main/fmt_model/architecture/figures/fmt_model.png" alt=structure"></p>
 
 ## Quick Start
 
@@ -31,8 +31,8 @@ Follow the belowing steps to start MIL simulation:
 - Clock `Run` button to start the simulation.
 
 <p float="left">
-  <img src="https://github.com/FirmamentPilot/fmt_user_guide_cn/blob/master/fmt_model/simulation/figures/matlab_3D.png" width="400" />
-  <img src="https://github.com/FirmamentPilot/fmt_user_guide_cn/blob/master/fmt_model/simulation/figures/flightgear.png" width="400" />
+  <img src="https://github.com/Firmament-Autopilot/FMT_UserGuide/blob/main/fmt_model/simulation/figures/matlab_3D.png" width="400" />
+  <img src="https://github.com/Firmament-Autopilot/FMT_UserGuide/blob/main/fmt_model/simulation/figures/flightgear.png" width="400" />
 </p>
 
 ### Open-loop Simulation
@@ -46,4 +46,4 @@ Follow the belowing steps to start open-loop simulation:
 
 ### Contact
 Wellcome to join our QQ group
-<p align="left"><img width="200" src="https://github.com/FirmamentPilot/FMT_Firmware/blob/master/figures/QR_code.png" alt=QR code"></p>
+<p align="left"><img width="200" src="https://github.com/Firmament-Autopilot/FMT_Firmware/blob/master/figures/QR_code.png" alt=QR code"></p>
